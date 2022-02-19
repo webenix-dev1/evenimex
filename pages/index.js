@@ -10,7 +10,7 @@ import {
 const Home = (props) => {
 	return (
 		<MainLayout>
-				
+				<h1></h1>
 		</MainLayout>
 	);
 };
