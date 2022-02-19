@@ -2,7 +2,7 @@ const Homebanner = () => {
     return (
         <>
             
-            hero 123test
+            hero 123testcvcv
             
         </>
     );
