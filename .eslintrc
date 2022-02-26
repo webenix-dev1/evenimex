@@ -1,5 +1,6 @@
 {
-    "extends": "next",
+    "extends": ["next/babel","next/core-web-vitals"],
+    "requireConfigFile": false,
     "settings": {
       "next": {
         "rootDir": "packages/evenimex/"
