@@ -1,11 +1,17 @@
-const path = require("path");
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+}
 
+module.exports = nextConfig
+
+
+
+// next.config.js
 module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
+  compiler: {
+    // ssr and displayName are configured by default
+    styledComponents: true,
   },
-  publicRuntimeConfig: {
-    // Will be available on both server and client
-    apiUrl: process.env.API_URL,
-  }
-};
+}
+
