@@ -33,13 +33,12 @@ const statusCodes = {
 };
 
 function _getInitialProps({
+  
   res,
   err
 }) {
-  const statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
-  return {
-    statusCode
-  };
+  const statusCode = res ? res.statusCode : err ? err.statusCode : 404
+  return { statusCode }
 }
 
 class Error extends _react.default.Component {
