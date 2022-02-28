@@ -43,5 +43,8 @@
     "redux-persist": "^6.0.0",
     "simple-react-lightbox": "^3.6.4",
     "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/helper-regex": "^7.10.5"
   }
 }
